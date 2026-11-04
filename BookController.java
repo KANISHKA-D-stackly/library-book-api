@@ -1,5 +1,4 @@
 package com.example.library.controller;
-
 import com.example.library.model.Book;
 import com.example.library.service.BookService;
 import jakarta.validation.Valid;
@@ -16,7 +15,7 @@ public class BookController {
     private final BookService service;
 
     public BookController(BookService service) {
-        this.service = service;
+        this.service=service;
     }
 
     // Add book
