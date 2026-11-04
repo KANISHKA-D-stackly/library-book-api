@@ -1,5 +1,4 @@
 package com.example.library.service;
-
 import com.example.library.exception.BookNotFoundException;
 import com.example.library.model.Book;
 import org.springframework.stereotype.Service;
@@ -10,7 +9,6 @@ import java.util.List;
 @Service
 public class BookService {
 
-    // No database: books are stored in memory
     private final List<Book> books = new ArrayList<>();
     private long nextId = 1L;
 
